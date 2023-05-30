@@ -1,0 +1,37 @@
+/* .bgColor{
+  background-color: #593196;
+}
+.textColor{
+  color: #FFFFFF;
+  font-size: small;
+}
+
+.slim-mode {
+  width: 70px;
+}
+
+.slim-mode .nav-pills {
+  flex-direction: column;
+}
+
+.slim-mode .nav-pills li {
+  margin: 0;
+}
+
+.slim-mode .nav-pills li a {
+  display: flex;
+  justify-content: center;
+}
+
+.slim-mode .nav-pills li a span {
+  display: none;
+}
+
+.slim-mode .nav-pills li a i {
+  font-size: 1.5rem;
+}
+
+.slim-mode .nav-pills li.active a i {
+  color: #fff;
+}
+ */

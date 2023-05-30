@@ -1,0 +1,35 @@
+
+<!--
+<div class="row row-cols-1 row-cols-md-3 g-4" >
+  <div class="col-md-3" *ngFor="let product of products">
+    <div class="card h-100">
+      <img [src]="product.thumbnail" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+      <div class="card-body">
+        <h5 class="card-title"> {{product.title}}</h5>
+        <p class="card-text">{{product.price}} </p>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<admin-sidebar></admin-sidebar>
+
+<div class="row">
+
+  <div class="col-md-3">
+    <figure  class="card" *ngFor="let product of products">
+      <img
+       [src]="product.thumbnail"
+        alt=""
+        class="card__image"
+      />
+      <figcaption class="card__body">
+        <h2 class="card__title">{{product.title}}</h2>
+        <p class="card__description">
+          {{product.price}}</p>
+      </figcaption>
+    </figure>
+
+  </div>
+  
+</div>
